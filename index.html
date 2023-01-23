@@ -1,17 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <title>Kapena - Minimal Portfolio HTML Template</title>
+        <title>Anthony Radke - Design Portfolio</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by CocoBasic" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="CocoBasic" />
+        <meta name="description" content="Personal Design Portfolio" />
+        <meta name="keywords" content="student, design, portfolio" />
+        <meta name="author" content="Anthony Radke" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="path/to/your/load.js"></script>
+        <script>
+        $(document).ready(function(){
+        $("#load-more-button").click(function(){
+            $(".hidden-elements").fadeIn(function() {
+            });
+        });
+        });
+
+        </script>
         
+
 
         <link rel="shortcut icon" href="images/favicon.ico" />    
         <link href='https://fonts.googleapis.com/css?family=Work%20Sans:400,500,700,900%7CPT%20Serif%7CRoboto:700' rel='stylesheet' type='text/css'>		
@@ -51,33 +60,31 @@
                         <nav id="header-main-menu">
                             <ul class="main-menu sm sm-clean">
                                 <li class="menu-item-has-children">
-                                    <a href="index.html">
-                                        Home
-                                    </a>
-                                </li>
-                                <!--
+                                    <a href="index.html"> Portfolio</a>
+                                    </li>
+                                    <!--
 
-                                <li>
-                                    <a href="team.html">Team</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Blog</a>
-                                </li>
+                                    <li>
+                                        <a href="team.html">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                    </li>
 
-                             -->
-                             <li>
-                                <a href="service.html">Service</a>
-                            </li>
+                                    
+                                    <li>
+                                        <a href="service.html">Service</a>
+                                    </li>-->
 
-                             <li>
-                                <a href="team.html">Team</a>
-                            </li>
-                             <li>
-                                <a href="about.html">About</a>
-                            </li>
-                             <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
+                                    <li>
+                                        <a href="team.html">Clients</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
                             </ul>
                         </nav>
                     </div>
@@ -184,195 +191,60 @@
                                         </div>
                                     </a>
                                 </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-7.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Wooden Stamp
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                IDENTITY
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-7.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Wooden Stamp
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                IDENTITY
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-                                                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-2.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Nature Logo
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                IDENTITY
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-3.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Smooth Stone
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                FONT
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-4.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Noise Five
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                DESIGN
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-5.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Plate Mockup
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                PHOTOSHOP
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-6.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Beard
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                UX/UI
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-7.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Wooden Stamp
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                IDENTITY
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="grid-item element-item p_one_third">
-                                    <a class="item-link" href="portfolio-7.html">
-                                        <img src="images/portfolio_item_03.jpg" alt="" />
-                                        <div class="portfolio-text-holder">
-                                            <p class="portfolio-title">
-                                                Wooden Stamp
-                                            </p>
-                                            <p class="portfolio-desc">
-                                                IDENTITY
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-
                             </ul>
                             <div class="clear"></div>  
                         </div>
-                        
                     </div>
                         
+
+
+                    
                     <div class="block center-relative center-text more-posts-portfolio-holder">
-                        <button class="more-posts-portfolio" id="load-more-button">LOAD MORE</button>
-                        <div class="hidden-elements">
-                            <div class="content-wrapper block content-1170 center-relative">
-                                <div id="portfolio-wrapper">
-                                    <ul class="grid" id="portfolio-grid">                                    
-                                        <li class="grid-sizer"></li>
-        
-                                        <li class="grid-item element-item p_one_third">
-                                            <a class="item-link" href="portfolio-1.html">
-                                                <img src="images/portfolio_item_03.jpg" alt="" />
-        
-                                                <div class="portfolio-text-holder">
-                                                    <p class="portfolio-title">
-                                                        Monochromatic
-                                                    </p>
-                                                    <p class="portfolio-desc">
-                                                        BRANDING
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </li>
-        
-                                        <li class="grid-item element-item p_one_third">
-                                            <a class="item-link" href="portfolio-2.html">
-                                                <img src="images/portfolio_item_03.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <p class="portfolio-title">
-                                                        Nature Logo
-                                                    </p>
-                                                    <p class="portfolio-desc">
-                                                        IDENTITY
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div class="clear"></div>  
-                        </div>
-                      </div>                      
-                    
-                    
-                </div>
+                        <div class="container">
+                            <div class="hidden-elements" style="display:none">
+                                <!--<div class="content-wrapper block content2-1170 center-relative">
+                                    <div id="portfolio-wrapper">
+                                        <ul class="grid2" id="portfolio2-grid">                                    
+                                            <li class="grid-sizer2"></li>
+                                                
+                                            <li class="grid-item2 element-item p2_one_third">
+                                                <a class="item-link2" href="portfolio-1.html">
+                                                    <img src="images/portfolio_item_02.jpg" alt="" />
+            
+                                                    <div class="portfolio-text-holder2">
+                                                        <p class="portfolio-title2">
+                                                            Monochromatic
+                                                        </p>
+                                                        <p class="portfolio-desc2">
+                                                            BRANDING
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="clear"></div>  
+                                    </div> -->
+                                </div>
+                            </div>
+                            <button class="more-posts-portfolio" id="load-more-button">LOAD MORE</button>
+                          </div>
+                          
+                      </div>  
+
 
 
 
                     <div class="content-1170 center-relative top-70">
                         <div class="one_half"> 
-                            <strong>The story</strong>
+                            <strong> placeholdher</strong>
                             <br> 
-                            With a warning label this big, you know they gotta be fun. Bring me the forms I need to fill out to have her taken away. 
-                            I decline the title of iron cook and accept the lesser title of zinc saucier.
+                            placeholdher
                         </div>
 
                         <div class="one_half last"> 
-                            <strong>Dreams</strong>
+                            <strong>placeholdher</strong>
                             <br> 
-                            You probably haven’t heard of them before they sold out scenester literally readymade. Trust fund Thundercats flexitarian, 
-                            aesthetic Tumblr banjo freegan semiotics biodiesel master cleanse.
+                            placeholdher
                         </div>
                         <div class="clear"></div>
                     </div>           
@@ -383,7 +255,7 @@
                 <div class="footer-content center-relative">
                     <img class="footer-logo" src="images/divider_01.png" alt="Kapena">
                     <div class="copyright-holder content-1170 center-relative"> 
-                        © 2018. Made by <a href="https://cocobasic.com/">Coco+Basic.</a>
+                        © 2023. Made by <a href="https://cocobasic.com/">Anthony Radke.</a>
                     </div>
 
                     <div class="social-holder content-1170 center-relative"> 

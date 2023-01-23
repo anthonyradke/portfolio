@@ -549,12 +549,29 @@ body .sm-clean li a.current {
     position: relative;
     max-width: 100%;
 }
+.grid2 {    
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
 
 .grid-sizer {
     width: calc(100% / 3);
 }
+.grid-sizer2 {
+    width: calc(100% / 3);
+}
 
 .grid-item {
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;    
+    overflow: hidden;            
+}
+.grid-item2 {
     float: left;
     font-size: 0;
     line-height: 0;
@@ -571,6 +588,18 @@ body .sm-clean li a.current {
 }
 
 .grid-item.p_one {
+    width: 100%;
+}
+
+.grid-item.p2_one_third {
+    width: calc(100% / 3);
+}
+
+.grid-item.p2_two_third {
+    width: calc(100% / 3 * 2);   
+}
+
+.grid-item.p2_one {
     width: 100%;
 }
 
@@ -611,8 +640,26 @@ body .sm-clean li a.current {
     transition: all .3s ease;
     text-align: center;
 }
+.portfolio-text-holder2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease;
+    text-align: center;
+}
 
 .portfolio-title {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.portfolio-title2 {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 0;
@@ -625,9 +672,20 @@ body .sm-clean li a.current {
     color: #fff;
     letter-spacing: 2px;
 }
+.portfolio-desc2 {
+    font-size: 10px;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
 
 .grid-item a.item-link:hover:after, 
 .grid-item a.item-link:hover .portfolio-text-holder {
+    opacity: 1;
+}
+.grid-item a.item-link2:hover:after, 
+.grid-item a.item-link2:hover .portfolio-text-holder {
     opacity: 1;
 }
 
@@ -635,7 +693,16 @@ body .sm-clean li a.current {
     margin-top: 65px;
     min-height: 1px;
 }
+.more-posts-portfolio-holder2 {
+    margin-top: 65px;
+    min-height: 1px;
+}
 
+.hidden-elements {
+    display: none;
+  }
+
+  
 .more-posts-portfolio {
     color: #fff !important;
     background-color: #000;
@@ -662,6 +729,14 @@ body .sm-clean li a.current {
     padding: 0;
     list-style: none;
 }
+#portfolio2-grid {
+    transition: all .5s ease;
+    opacity: 1;
+    transform: translateY(0px);
+    padding: 0;
+    list-style: none;
+}
+
 
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
@@ -692,6 +767,10 @@ body .sm-clean li a.current {
 }
 
 .portfolio-item-wrapper {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.portfolio2-item-wrapper {
     margin-top: 75px;
     margin-bottom: 50px;
 }
@@ -1415,6 +1494,9 @@ footer ul  {
     .single .nav-links .content-1170 {
         max-width: 80%;   
     }
+    .single .nav-links .content2-1170 {
+        max-width: 80%;   
+    }
 
     .team-holder .member-info {
         display: block !important;
@@ -1715,6 +1797,9 @@ footer ul  {
 	.portfolio-item-wrapper {
 		margin-top: 35px;
 	}
+    .portfolio2-item-wrapper {
+		margin-top: 35px;
+	}
 
     .one_half,
     .one_third,
@@ -1846,4 +1931,11 @@ footer ul  {
     .single .entry-info div:after {
         display: none;
     }    
+}
+#load-more-button{
+    position: relative;
+    top:0;
+}
+.container{
+    position: relative;
 }
