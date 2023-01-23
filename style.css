@@ -187,7 +187,7 @@ img.title-logo {
     margin-right: 8%;
     float: left;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .last {
     margin-right: 0 !important;
@@ -770,7 +770,7 @@ body .sm-clean li a.current {
     margin-top: 75px;
     margin-bottom: 50px;
 }
-.portfolio2-item-wrapper {
+.portfolio-item-wrapper {
     margin-top: 75px;
     margin-bottom: 50px;
 }
@@ -1939,3 +1939,20 @@ footer ul  {
 .container{
     position: relative;
 }
+
+
+
+#resumeLink {
+    border-bottom: 2px solid blue;
+  }
+
+  #team-image {
+    padding: 10px;
+    transform: translateY(-40px);
+
+  }
+  #image-container {
+    padding: 10px;
+  }
+    
+  
