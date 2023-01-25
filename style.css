@@ -549,6 +549,7 @@ body .sm-clean li a.current {
     position: relative;
     max-width: 100%;
     
+    
 }
 .grid2 {    
     width: 100%;
@@ -583,6 +584,7 @@ body .sm-clean li a.current {
 
 .grid-item.p_one_third {
     width: calc(100% / 3);
+    
 }
 
 .grid-item.p_two_third {
@@ -608,7 +610,8 @@ body .sm-clean li a.current {
 .grid-item img {
     width: 100% !important;
     height: auto;
-    display: block;    
+    display: block;   
+    
 }
 
 .grid-item .entry-holder {
@@ -627,7 +630,7 @@ body .sm-clean li a.current {
     left: 0;
     top: 0;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity .22s ease-in-out;
 }
 
 .portfolio-text-holder {
@@ -768,10 +771,6 @@ body .sm-clean li a.current {
     clear: both;
 }
 
-.portfolio-item-wrapper {
-    margin-top: 75px;
-    margin-bottom: 50px;
-}
 .portfolio-item-wrapper {
     margin-top: 75px;
     margin-bottom: 50px;
@@ -1286,7 +1285,7 @@ ul.archive-list li span {
 
 .single .nav-next {
     display: inline-block;
-    /*float: right;*/
+    float: right;
     width: 260px;
     text-align: right;
     position: relative;
