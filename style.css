@@ -1278,7 +1278,7 @@ ul.archive-list li span {
 .single .nav-previous {
     display: inline-block;
     text-align: left;
-    /*float: left;*/
+    float: left;
     width: 260px;
     position: relative;
 }
