@@ -365,12 +365,12 @@ img.title-logo {
     float: left;
     position: absolute;
     transform: translateY(-50%);
-    top: 50%;      
+    top: 80%;      
 }
 
 .header-logo img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 55px;
 }
 
 .menu-holder {
@@ -548,6 +548,7 @@ body .sm-clean li a.current {
     overflow: hidden;
     position: relative;
     max-width: 100%;
+    
 }
 .grid2 {    
     width: 100%;
@@ -569,7 +570,8 @@ body .sm-clean li a.current {
     font-size: 0;
     line-height: 0;
     width: 100%;    
-    overflow: hidden;            
+    overflow: hidden;  
+              
 }
 .grid-item2 {
     float: left;
