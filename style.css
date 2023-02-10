@@ -1965,5 +1965,13 @@ footer ul  {
     height: 500px;
     width: 800px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    margin-bottom: -75px;
+  }
+
+  h1.reqtitle {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+
   }
