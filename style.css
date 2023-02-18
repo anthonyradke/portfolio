@@ -584,11 +584,14 @@ body .sm-clean li a.current {
 
 .grid-item.p_one_third {
     width: calc(100% / 3);
-    
+
 }
 
 .grid-item.p_two_third {
     width: calc(100% / 3 * 2);   
+padding-left: 180px;
+margin-top: -150px;
+/*DELETE THESE LIENS TO FIX*/
 }
 
 .grid-item.p_one {
@@ -620,13 +623,14 @@ body .sm-clean li a.current {
     padding: 50px 20px;
 }
 
+
+
 .grid-item a.item-link:after {
     content: "";
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000;
     left: 0;
     top: 0;
     opacity: 0;
@@ -644,6 +648,10 @@ body .sm-clean li a.current {
     transform: translate(-50%, -50%);
     transition: all .3s ease;
     text-align: center;
+    padding-left: 180px;
+    /*DELETE THIS LINE TO FIX*/
+    
+
 }
 .portfolio-text-holder2 {
     color: white;
@@ -1966,8 +1974,8 @@ footer ul  {
     width: 800px;
     margin-left: auto;
     margin-right: auto; 
-    margin-bottom: -75px;
-    padding-bottom: 100px;
+    margin-top: -250px;
+    margin-bottom: 200px;
   }
 
   h1.reqtitle {
