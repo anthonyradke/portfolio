@@ -587,12 +587,6 @@ body .sm-clean li a.current {
 
 }
 
-.grid-item.p_two_third {
-    width: calc(100% / 3 * 2);   
-padding-left: 180px;
-margin-top: -150px;
-/*DELETE THESE LIENS TO FIX*/
-}
 
 .grid-item.p_one {
     width: 100%;
@@ -647,10 +641,7 @@ margin-top: -150px;
     opacity: 0;
     transform: translate(-50%, -50%);
     transition: all .3s ease;
-    text-align: center;
-    padding-left: 180px;
-    /*DELETE THIS LINE TO FIX*/
-    
+    text-align: center;    
 
 }
 .portfolio-text-holder2 {
