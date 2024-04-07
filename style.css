@@ -2078,3 +2078,7 @@ footer ul  {
     flex-direction: column;
     align-items: center;
   }
+
+  .onemid {
+    text-align: center;
+}
