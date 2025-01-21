@@ -6,6 +6,8 @@ RewriteRule ^about$ about.html [L]
 RewriteRule ^contact$ contact.html [L]
 RewriteRule ^project1$ project1.html [L]
 RewriteRule ^project2$ project2.html [L]
+RewriteRule ^Anthony_Radke_Resume Anthony_Radke_Resume.pdf [L]
+
 
 # Set a default directory index
 DirectoryIndex index.html
